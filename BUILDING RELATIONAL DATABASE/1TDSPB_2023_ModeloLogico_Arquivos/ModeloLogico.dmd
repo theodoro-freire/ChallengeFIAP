@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModeloLogico" id="A1A3635F-CD17-7434-F62F-35D699E5CFE0" version="3.5">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:03:55 UTC</createdTime>
+<ownerDesignName>Banco de dados salesforce</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A1A3635F-CD17-7434-F62F-35D699E5CFE0</designId>
+</OSDM_Design>

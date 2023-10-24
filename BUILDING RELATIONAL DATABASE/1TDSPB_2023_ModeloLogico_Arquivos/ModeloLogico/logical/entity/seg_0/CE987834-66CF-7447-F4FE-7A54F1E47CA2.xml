@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE987834-66CF-7447-F4FE-7A54F1E47CA2" name="Empresa">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:04:47 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CPNJ" id="30BF8273-CEA6-9A3E-BC48-0E02E1D6C10B">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:06:05 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razao_social" id="FBF75F09-73FE-21A9-5A93-91EFEFB66235">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:05:12 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="responsavel_legal" id="7D3BC9CA-C836-FD44-E77D-C5FEF72A31BE">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:07:28 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="F297A456-DA1B-EDDA-CA94-8D95B0DBF27B">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:10:02 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF" id="F30F4845-3FD9-91AB-7EE7-724E1880BFA0">
+<createdBy>dalai</createdBy>
+<createdTime>2023-10-23 21:01:33 UTC</createdTime>
+<generatorID>29B5AB86-63D7-02BF-5B55-C85329A9BF32</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<referedAttribute>7459580B-1708-E4A4-9F5F-C81D1FCEE8D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A0E7BBA2-4F30-A3C7-FC32-C241BB516E50" name="Empresa PK">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:06:26 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>30BF8273-CEA6-9A3E-BC48-0E02E1D6C10B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CAC1F977-9108-7AFB-9223-22386925AB99" name="Cliente">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:43:14 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CPF" id="7459580B-1708-E4A4-9F5F-C81D1FCEE8D6">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:50:41 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_cliente" id="3771F959-3574-3ABB-97D3-42949093D346">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:43:38 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_cliente" id="D10E1183-6F3D-382D-13F4-293FBBB9C45B">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:43:47 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone_cliente" id="4D4CEECC-1CEB-873C-BE28-F13AC7A87B9A">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:43:48 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cargo" id="2C01509F-2274-3BD4-CE08-F9346C1A9609">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:43:48 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF1" id="BEB3F897-BB25-37EC-089F-183DFCFDDA78">
+<createdBy>dalai</createdBy>
+<createdTime>2023-10-23 20:58:38 UTC</createdTime>
+<generatorID>FFD22838-DFC0-F76D-623E-E74A726D3E94</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<referedAttribute>4C1ACB24-046B-1515-18D8-A9C97424D2DC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B12DFBF-402F-60EE-29C2-1766B8B504B7" name="Cliente PK">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 21:07:17 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7459580B-1708-E4A4-9F5F-C81D1FCEE8D6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

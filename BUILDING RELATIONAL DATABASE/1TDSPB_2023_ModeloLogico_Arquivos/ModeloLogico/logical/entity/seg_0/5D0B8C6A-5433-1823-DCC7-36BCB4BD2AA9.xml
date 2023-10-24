@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D0B8C6A-5433-1823-DCC7-36BCB4BD2AA9" name="Endereco">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:11:52 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CEP" id="4EEEC5A0-F625-444C-3E47-C16136760B6C">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:12:28 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouro" id="990FA043-C86A-03D7-988C-5368D5DFA0D9">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:13:18 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="73AE283C-E011-E06F-2A4E-27C535752279">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:13:31 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro" id="76E56C0D-3985-000E-98E6-5367E3D50F5B">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:13:54 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="7DB7015E-4390-28F9-5BC0-C1C25CE87A1C">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:14:09 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pais" id="FE2B9BC7-711B-C8EC-2C64-CCF1C28958A9">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:14:21 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="5B9D2EAA-5E15-6C3A-CDEA-1A8EB12BCF15">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:14:33 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPNJ" id="5A5F9AB2-BF94-0FC1-C898-C15E0006105D">
+<createdBy>dalai</createdBy>
+<createdTime>2023-10-23 20:59:27 UTC</createdTime>
+<generatorID>2BD4E8CC-01AD-244D-5976-19E323E3EA90</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<referedAttribute>30BF8273-CEA6-9A3E-BC48-0E02E1D6C10B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B9E2BDED-51F9-FD81-EADE-4C3D7E422ED0" name="Endereco PK">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:12:47 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="4709A5D8-18D8-9B57-EA3E-70B5252027C7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4EEEC5A0-F625-444C-3E47-C16136760B6C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

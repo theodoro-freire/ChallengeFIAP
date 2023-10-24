@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="D9CABB63-7E2F-DB57-A4D8-ED10E7099FCB">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:03:55 UTC</createdTime>
+<ownerDesignName>Banco de dados salesforce</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

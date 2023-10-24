@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DF3FF986-CB63-FC1B-197C-47C8B4F7998D" mainViewID="C33B7A42-2216-5D4C-3C43-F2EC4F18C5B0">
+<createdBy>mathe</createdBy>
+<createdTime>2023-10-22 20:03:55 UTC</createdTime>
+<ownerDesignName>Banco de dados salesforce</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

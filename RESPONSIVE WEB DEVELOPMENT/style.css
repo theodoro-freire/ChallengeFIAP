@@ -217,5 +217,32 @@ strong{
     text-align: center;
 }
 
+.conteudo-orgonograma{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 20px;
+    align-items: center;
+}
+
+.conteudo-orgonograma img{
+    display: flex;
+    width: 80%;
+    height: 550px;
+    padding-left: 140px;
+    margin-top: 40px;
+    
+}
+
+.conteudo-orgonograma h1{
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+}
+
+.conteudo-orgonograma p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
 
 
